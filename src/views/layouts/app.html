@@ -1,0 +1,15 @@
+{% set data = htmlWebpackPlugin.options.siteData %}
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    {% include "partials/head.html" %}
+    {% include "partials/styles.html" %}
+  </head>
+  <body>
+    <main>
+      {% block content %}
+      {% endblock %}
+    </main>
+    {% include "partials/scripts.html" %}
+  </body>
+</html>

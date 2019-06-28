@@ -1,0 +1,16 @@
+$style-icons-map: (
+  plus: "\e901",
+  arrow: "\e90b",
+  close: "\e90d",
+);
+
+@mixin icon($icon) {
+  content: map-get($style-icons-map, $icon);
+  font-family: "project";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  speak: none;
+  text-transform: none;
+}

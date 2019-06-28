@@ -1,0 +1,5 @@
+@function vw($size) {
+  $vw: (1024 * 0.01) * 1;
+
+  @return #{($size / $vw) + 'vw'};
+}

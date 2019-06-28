@@ -1,0 +1,44 @@
+$container: 1200px;
+$gutter: 15px;
+
+@mixin site-limit() {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+
+  &::after {
+    clear: both;
+    content: "";
+    display: block;
+  }
+
+  @include respond-to(desktop) {
+    max-width: $container;
+    padding-left: $gutter;
+    padding-right: $gutter;
+    position: relative;
+  }
+
+  @include respond-to(tablet) {
+    width: auto;
+    padding-left: $gutter;
+    padding-right: $gutter;
+  }
+
+  @include respond-to(mobile) {
+    width: auto;
+    padding-left: $gutter;
+    padding-right: $gutter;
+  }
+}
+
+.t-container {
+  @include site-limit;
+}
+
+@include respond-to(desktop) {
+  .t-container--collapse {
+    padding: 0;
+  }
+}
