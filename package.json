@@ -43,7 +43,7 @@
     "node-notifier": "^5.1.2",
     "node-sass": "^4.7.2",
     "nunjucks-html-loader": "^1.1.0",
-    "nunjucks-isomorphic-loader": "^2.0.2",
+    "nunjucks-isomorphic-loader": "github:ginaldoterencio/Nunjucks-Isomorphic-Loader",
     "optimize-css-assets-webpack-plugin": "^3.2.0",
     "ora": "^1.2.0",
     "portfinder": "^1.0.13",
