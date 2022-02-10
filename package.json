@@ -41,7 +41,7 @@
     "html-loader": "^0.5.4",
     "html-webpack-plugin": "^2.30.1",
     "node-notifier": "^5.1.2",
-    "node-sass": "^4.7.2",
+    "node-sass": "^7.0.0",
     "nunjucks-html-loader": "^1.1.0",
     "nunjucks-isomorphic-loader": "github:ginaldoterencio/Nunjucks-Isomorphic-Loader",
     "optimize-css-assets-webpack-plugin": "^3.2.0",
